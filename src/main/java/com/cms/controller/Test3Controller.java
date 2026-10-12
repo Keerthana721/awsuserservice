@@ -13,14 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Test3Controller {
 
-    @Autowired
-    private AuthenticationManager authenticationManager;
-
-    @Autowired
-    private UserDetailsService userDetailsService;
-
-    @Autowired
-    private JwtUtil jwtUtil;
 
     @Autowired
     private UserRepository userRepository;
